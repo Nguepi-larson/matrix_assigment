@@ -14,4 +14,4 @@ void transpose_3_by_3(float a1[3][3]);
 
 void invers_3_by_3(float a1[3][3]);
 
-void trace_3_by_3(float a1[3][3]);
+float trace_3_by_3(float a1[3][3]);
