@@ -60,15 +60,27 @@ void display_2_by_2(float a1[2][2])
 
 void multiplication_2_by_2(float a1[2][2],float a2[2][2])
 {
+    
     int i,j;
+    float a3[2][2];
+
     for(i=0;i<2;i++)
     {
         for(j=0;j<2;j++)
         {
-            a1[i][j]=(a1[i][i]*a2[i][j])+(a1[i][1]*a2[1][j]);
+            a3[i][j]=(a1[i][0]*a2[0][j])+(a1[i][1]*a2[1][j]);
         }
     }
     
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<2;j++)
+        {
+            a1[i][j]=a3[i][j];
+        }
+    }
+
+
 }
 
 void transpose_2_by_2(float a1[2][2])

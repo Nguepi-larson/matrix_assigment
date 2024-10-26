@@ -62,14 +62,22 @@ float  determinant_3_by_3(float  a1[3][3])
 
 void multiplication_3_by_3(float a1[3][3],float a2[3][3])
 {
+    float a3[i][j];
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
         {
-            a1[i][j]=(a1[i][0]*a2[i][j])+(a1[i][1]*a2[1][j])+(a1[i][2]*a2[2][j]);
+            a3[i][j]=(a1[i][0]*a2[i][j])+(a1[i][1]*a2[1][j])+(a1[i][2]*a2[2][j]);
         }
     }
 
+     for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            a1[i][j]=a3[i][j];
+        }
+    }
 }
 
 void transpose_3_by_3(float a1[3][3])
