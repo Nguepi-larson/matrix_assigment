@@ -137,10 +137,10 @@ void invers_2_by_2(float a1[2][2])
 }
 
 
-void trace_2_by_2(float a1[2][2])
+float trace_2_by_2(float a1[2][2])
 {
     float a;
     a=a1[0][0]+a1[1][1];
-    printf("%.2f",a);
+    return a;
 }
 
