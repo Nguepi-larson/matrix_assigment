@@ -90,7 +90,8 @@ int main(int argc,char** argv)
             {
                 std::cout<<"enter the element of the first matrix\n";
                 fill_2_by_2(arr);
-                trace_2_by_2(arr);
+               a=trace_2_by_2(arr);
+printf("the trace is :%.2f,a);
 
             }break;
            
@@ -178,7 +179,8 @@ int main(int argc,char** argv)
             {
                 std::cout<<"enter the element of the first matrix\n";
                 fill_3_by_3(ar);
-                trace_3_by_3(ar);
+               a=trace_3_by_3(ar);
+printf("the trace is :%.2f",a);
 
             }break;
            
