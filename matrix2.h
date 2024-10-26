@@ -14,4 +14,4 @@ void transpose_2_by_2(float a1[2][2]);
 
 void invers_2_by_2(float a1[2][2]);
 
-void trace_2_by_2(float a1[2][2]);
+float trace_2_by_2(float a1[2][2]);
