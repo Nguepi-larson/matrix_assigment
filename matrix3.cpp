@@ -136,9 +136,9 @@ float a,b,c,d,e,f,g,h,k;
 
 }
 
-void trace_3_by_3(float a1[3][3])
+int trace_3_by_3(float a1[3][3])
 {
    float a;
     a=a1[0][0]+a1[1][1]+a1[2][2];
-    printf("the trace is %.2f",a);
+    return a;
 }
