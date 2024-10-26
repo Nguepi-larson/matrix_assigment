@@ -136,7 +136,7 @@ float a,b,c,d,e,f,g,h,k;
 
 }
 
-int trace_3_by_3(float a1[3][3])
+float trace_3_by_3(float a1[3][3])
 {
    float a;
     a=a1[0][0]+a1[1][1]+a1[2][2];
